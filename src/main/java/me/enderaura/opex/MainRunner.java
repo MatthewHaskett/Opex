@@ -28,7 +28,7 @@ public class MainRunner {
     }
 
     private void main(){
-        discordClient = BotUtils.getBuiltDiscordClient("Mzk0MTI0NTkxOTMwMjc3ODg4.DR_wvg.DuRqnTXtopu8XYP6zc0RLGHPuQs");
+        discordClient = BotUtils.getBuiltDiscordClient("TOKEN"); // Note to self: REGENERATE LEAKED TOKEN, AND HAVE IT PULLED FROM AN IGNORED FILE!!!!
         discordClient.getDispatcher().registerListener(new CommandHandler());
         discordClient.getDispatcher().registerListener(new LoginHandler());
         discordClient.getDispatcher().registerListener(new LevelingListener());
